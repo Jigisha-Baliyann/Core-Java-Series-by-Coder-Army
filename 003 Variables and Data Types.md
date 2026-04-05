@@ -1,4 +1,4 @@
-## Variables, Identifiers, Literals, Comments & Keywords
+# Variables, Identifiers, Literals, Comments & Keywords
 
 - "Variables" are the containers which hold some value in the memory.
 - "Identifiers" are the representations of containers/variables.
@@ -6,13 +6,13 @@
 
 - "Comments" are ignored by the compiler, these are used for
 - Single line comments starts with //.
-- Multiple line comments are enclosed within /*--------------*/.
+- Multiple line comments are enclosed within /* and */.
 
 - "Keywords" are the reserved words by the programming language, which cannot be used as literals.
 - Java has total 68 Keywords.
 - 'goto' and 'const' are special Keywords in Java which are not defined in the language and used anywhere, but only kept reserved.
 
-## Data Types
+# Data Types
 
 - The type of value stored in an Identifier.
 - Java is a statically-typed language i.e. we have to declare the type of variable at the time of its initialization or declaration.
@@ -35,7 +35,7 @@ byte << short << int << long
 
 - Every number is Signed in Java.
 
-# Real Number Data Types
+## Real Number Data Types
 
 - "float"  (width-32) : 1.4 * 10^-045 to 3.4 * 10^038 ==> Single Precision
 - float f = 10.54f;
@@ -43,28 +43,27 @@ byte << short << int << long
 - double d = 6.022e23; // 6.022 * 10^23 ==> 6.022E23 as Output in Scientific Form
 - "double" is always preferred for latest processors and we don't use "float" in real-life projects.
 
-# Character Data Type
+## Character Data Type
 
 - "char" --> can represent unicode characters
 - Characters are represented within single quotations ''.
 - Previously English characters were assigned ASCII codes (which has range 0 to 127 or 8-bits) like 65='a'.
 - Java introduced Unicodes (16-bits) to represent all characters over the world into numeric/integer codes/values.
 
-# Boolean Data Type
+## Boolean Data Type
 
 - "boolean" stores only two types of values : "true" or "false".
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e616726b-4567-4580-9c1f-1b0d03974a37" />
 
-
-# Important/Note
+## Important/Note
 
 - "float", "double" and "long" data types can also be made more readable by adding _ (underscores) which will be ignore by the compiler.
 - "float" and "double" cannot take _ immediately adjacent to the _ otherwise it will give error.
 
 - int x; // only declared, can be defined later by user input.
 
-## Number Systems
+# Number Systems
 
 - Binary       : base-2             : byte b = 0b101; ==> b = 5 (decimal output)
 - Octal        : base-8             : byte b = 05;    ==> b = 5 (decimal output)
