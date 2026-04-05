@@ -114,3 +114,4 @@ for exponent = 11-bits
 Bias = 2^10 - 1 = 1023
 
 # BigDecimal -- the new concept to solve this problem
+(this will be covered in further lectures)
