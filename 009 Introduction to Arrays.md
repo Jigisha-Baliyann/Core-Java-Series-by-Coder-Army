@@ -6,7 +6,7 @@
 - each allocated memory is of the same size as that of the defined datatype.
 - values are inserted into Arrays as : arrayName[index] = newValue;
 - indices (plural of index) are the numbered addresses in any data structure starting from 0 to (n-1) where 'n' is the size of the data structure..
-- values from array are retrieved also with the help of arrays as : System.out.println(arrayName[index]);
+- values from array are retrieved also with the help of indices as : System.out.println(arrayName[index]);
 - values in/from an array can also be inserted/retrieved with help of loops.
 - ArrayName.length ==> gives the current size of this array
 
@@ -50,7 +50,7 @@
 
 - String is also a non-primitive data type in Java.
 - They are declared as : String variableName = "StringValue";
-- They are always written within double quotes.
+- They are always written within double quotes, i.e. " ".
 
 - NOTE: In System.out.println() we always put the String value to output;
 - Concatenation is done in Strings by '+' operator.
